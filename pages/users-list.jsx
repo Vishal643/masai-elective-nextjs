@@ -10,7 +10,7 @@ const UsersList = ({ data }) => {
 			{data.map((user) => (
 				<div key={user.id} className='userList'>
 					<li>
-						<Link href={`/${user.id}`}>{user.last_name}</Link>
+						<Link href={`/users/${user.id}`}>{user.last_name}</Link>
 					</li>
 				</div>
 			))}
