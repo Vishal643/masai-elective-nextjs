@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
-import { Users } from '../../utils';
+import { Users } from '../../../../utils';
 import axios from 'axios';
-import ShowUserDetails from '../../components/ShowUserDetails';
+import ShowUserDetails from '../../../../components/ShowUserDetails';
 
 const UserDetails = (props) => {
 	const { id, avatar, email, first_name, last_name } = props.users.data;

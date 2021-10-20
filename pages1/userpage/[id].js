@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
-import { Users } from '../../utils';
-import ShowUserDetails from '../../components/ShowUserDetails';
+import { Users } from '../../../../utils';
+import ShowUserDetails from '../../../../components/ShowUserDetails';
 
 const UserDetails = () => {
 	const router = useRouter();
